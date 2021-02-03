@@ -1,0 +1,24 @@
+<project name="FreeSWITCH" default="build" basedir=".">
+
+ <property name="ARTIFACT_NAME" value="FreeSWITCH"/>
+ <property name="HOSTNAME" value="freeswitch"/>
+ <property name="ID" value="FREESWITCH"/>
+
+ <property name="builddir" value="${basedir}/build"/>
+ <property name="sysdir" value="${builddir}/mnt"/>
+
+ <import file="build-system/mender.xml"/>
+ <import file="build-system/common.xml"/>
+
+ <target name="build">
+  <sequential>
+   <antcall target="unpack-system-image"/>
+   <antcall target="build-image"/>
+   <antcall target="check-strip-and-trim"/>
+   <antcall target="post-mender-artifact"/>
+   <antcall target="pack-final-system-image"/>
+   <antcall target="record-last-commit"/>
+  </sequential>
+ </target>
+
+</project>
