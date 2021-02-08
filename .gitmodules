@@ -1,3 +1,84 @@
 [submodule "build-system"]
 	path = build-system
 	url = https://git.iszf.irk.ru/certo/build-system.git
+[submodule "packages/tiff"]
+	path = packages/tiff
+	url = https://git.iszf.irk.ru/certo/tiff.git
+[submodule "packages/libjpeg-turbo"]
+	path = packages/libjpeg-turbo
+	url = https://git.iszf.irk.ru/certo/libjpeg-turbo.git
+[submodule "packages/sofia-sip"]
+	path = packages/sofia-sip
+	url = https://git.iszf.irk.ru/certo/sofia-sip.git
+[submodule "packages/check"]
+	path = packages/check
+	url = https://git.iszf.irk.ru/certo/check.git
+[submodule "packages/sqlite"]
+	path = packages/sqlite
+	url = https://git.iszf.irk.ru/certo/sqlite.git
+[submodule "packages/libedit"]
+	path = packages/libedit
+	url = https://git.iszf.irk.ru/certo/libedit.git
+[submodule "packages/yasm"]
+	path = packages/yasm
+	url = https://git.iszf.irk.ru/certo/yasm.git
+[submodule "packages/lua"]
+	path = packages/lua
+	url = https://git.iszf.irk.ru/certo/lua.git
+[submodule "packages/opus"]
+	path = packages/opus
+	url = https://git.iszf.irk.ru/certo/opus.git
+[submodule "packages/postgresql"]
+	path = packages/postgresql
+	url = https://git.iszf.irk.ru/certo/postgresql.git
+[submodule "packages/tcl"]
+	path = packages/tcl
+	url = https://git.iszf.irk.ru/certo/tcl.git
+[submodule "packages/libpng"]
+	path = packages/libpng
+	url = https://git.iszf.irk.ru/certo/libpng.git
+[submodule "packages/x264"]
+	path = packages/x264
+	url = https://git.iszf.irk.ru/certo/x264.git
+[submodule "packages/nasm"]
+	path = packages/nasm
+	url = https://git.iszf.irk.ru/certo/nasm.git
+[submodule "packages/libogg"]
+	path = packages/libogg
+	url = https://git.iszf.irk.ru/certo/libogg.git
+[submodule "packages/libvorbis"]
+	path = packages/libvorbis
+	url = https://git.iszf.irk.ru/certo/libvorbis.git
+[submodule "packages/alsa-lib"]
+	path = packages/alsa-lib
+	url = https://git.iszf.irk.ru/certo/alsa-lib.git
+[submodule "packages/certbot"]
+	path = packages/certbot
+	url = https://git.iszf.irk.ru/certo/certbot.git
+[submodule "packages/flac"]
+	path = packages/flac
+	url = https://git.iszf.irk.ru/certo/flac.git
+[submodule "packages/ldns"]
+	path = packages/ldns
+	url = https://git.iszf.irk.ru/certo/ldns.git
+[submodule "packages/libks"]
+	path = packages/libks
+	url = https://git.iszf.irk.ru/certo/libks.git
+[submodule "packages/libsndfile"]
+	path = packages/libsndfile
+	url = https://git.iszf.irk.ru/certo/libsndfile.git
+[submodule "packages/signalwire-client-c"]
+	path = packages/signalwire-client-c
+	url = https://git.iszf.irk.ru/certo/signalwire-client-c.git
+[submodule "packages/spandsp"]
+	path = packages/spandsp
+	url = https://git.iszf.irk.ru/certo/spandsp.git
+[submodule "packages/speex"]
+	path = packages/speex
+	url = https://git.iszf.irk.ru/certo/speex.git
+[submodule "packages/libav"]
+	path = packages/libav
+	url = https://git.iszf.irk.ru/certo/libav.git
+[submodule "packages/freeswitch"]
+	path = packages/freeswitch
+	url = https://git.iszf.irk.ru/certo/freeswitch.git
